@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox fx:controller="com.example.casino7.HelloController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="481.0" prefWidth="600.0" style="-fx-background-color: #000;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-padding: 20px; -fx-spacing: 30px;">
+         <children>
+            <Text fx:id="winsText" fill="#de0d30" strokeType="OUTSIDE" strokeWidth="0.0" text="Wins: 0">
+               <font>
+                  <Font name="System Bold" size="19.0" />
+               </font>
+            </Text>
+            <Text fx:id="losesText" fill="#de0d30" strokeType="OUTSIDE" strokeWidth="0.0" text="Loses: 0">
+               <font>
+                  <Font name="System Bold" size="19.0" />
+               </font>
+            </Text>
+            <Text fx:id="megaWinsText" fill="#de0d30" strokeType="OUTSIDE" strokeWidth="0.0" text="Mega Wins: 0">
+               <font>
+                  <Font name="System Bold" size="19.0" />
+               </font>
+            </Text>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="197.0" prefWidth="600.0" style="-fx-spacing: 60px; -fx-border-color: #de0d30; -fx-border-width: 2px;">
+         <children>
+            <Text fx:id="num1" fill="#de0d30" strokeType="OUTSIDE" strokeWidth="0.0" text="7" underline="true">
+               <font>
+                  <Font name="System Bold" size="96.0" />
+               </font>
+            </Text>
+            <Text fx:id="num2" fill="#de0d30" strokeType="OUTSIDE" strokeWidth="0.0" text="7" underline="true">
+               <font>
+                  <Font name="System Bold" size="96.0" />
+               </font>
+            </Text>
+            <Text fx:id="num3" fill="#de0d30" strokeType="OUTSIDE" strokeWidth="0.0" text="7" underline="true">
+               <font>
+                  <Font name="System Bold" size="96.0" />
+               </font>
+            </Text>
+         </children></HBox>
+      <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <Button fx:id="startButton" onAction="#clickHandler" alignment="CENTER" mnemonicParsing="false" style="-fx-background-color: #de0d30; -fx-padding: 15px;" text="CLICK">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Button>
+         </children>
+      </HBox>
+   </children>
+</VBox>
